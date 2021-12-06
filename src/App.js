@@ -19,19 +19,16 @@ function App() {
           <Home />
         </Route>
         <Route path='/register'>
-          {' '}
           <Register />
         </Route>
         <Route path='/login'>
-          {' '}
           <Login />
         </Route>
         <Route path='/post/:id'>
           <Single />
         </Route>
         <Route path='/write'>
-          {' '}
-          <Write />{' '}
+          <Write />
         </Route>
         <Route path='/settings'>
           <Settings />
